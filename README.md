@@ -65,7 +65,7 @@ dotnet run
 
 Once the app starts, open your browser and go to:
 
- **[http://localhost:5000](http://localhost:5031)**
+ **[http://localhost:5031](http://localhost:5031)**
 
 
 ---
