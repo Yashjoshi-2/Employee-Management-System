@@ -1,0 +1,12 @@
+@model EmployeeManagementSystem.Models.Employee
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Employee Details</h2>
+<p><b>Name:</b> @Model.Name</p>
+<p><b>Position:</b> @Model.Position</p>
+<p><b>Salary:</b> @Model.Salary</p>
+
+<a href="/Employees/Edit/@Model.Id">Edit</a> |
+<a href="/Employees">Back to List</a>
